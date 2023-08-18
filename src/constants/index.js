@@ -24,7 +24,10 @@ import {
   threejs,
   Uopeople,
   instagram,
-  GC
+  GC,
+  Appsheet,
+  Laravel,
+  Blog                            
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +66,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "Appsheet",
+    icon: Appsheet,
+  },
+  {
+    name: "HTML",
     icon: html,
   },
   {
@@ -73,6 +80,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Laravel",
+    icon: Laravel,
   },
   {
     name: "React JS",
@@ -95,7 +106,7 @@ const technologies = [
 const experiences = [
   {
     title: "Logistics developer",
-    company_name: "Regis International Co.,ltd",
+    company_name: "Trading, Logistic, HR, Appsheet",
     icon: GC,
     iconBg: "#383E56",
     date: "Sept 1 2022 - 24 July 2023",
@@ -116,7 +127,7 @@ const experiences = [
       "I was second year international relations student before covid. I pause my student life after covid.",
       "I am pursuing a bachelor degree in computer science from University of People. Learning computer science at uni is more structured and improve my skills as IT professional.",
       "I have accomplished many certificates from coursera including PHP Michigan specialization certificates. Check certificates from my github Account.",
-      "I have been creating many projects with laravel, jquery and tailwind css. All of the projects uploaded to github account, KoKoAungStar. Now, I am learning frontend javascript libraries like React.",
+      "I have been creating many projects with laravel, jquery and tailwind css. All of the projects uploaded to github account,. Now, I am learning frontend javascript libraries like React.",
     ],
   },
 ];
@@ -179,9 +190,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    
     image: instagram,
     source_code_link: "https://github.com/KoKoAungStar/FreeCodeGram",
   },
+
+  {
+    name: "Personal Blog Laravel",
+    description:
+      "This is an Personal blog projects. I learn many laravel, juquery from this project",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "jquery",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    
+    image: Blog,
+    source_code_link: "https://github.com/KoKoAungStar/Personal-Blog-Web-App-laravel-",
+  },
+
+  {
+    name: "API CRUD AXIOS",
+    description:
+      "Fundamental API project with laravel and axios",
+    tags: [
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://th.bing.com/th/id/OIP.C6juDELOFc1ktp7iV91ErQAAAA?pid=ImgDet&rs=1",
+    source_code_link: "https://github.com/KoKoAungStar/Laravel-Api-with-axios",
+  }
 ];
 
 export { services, technologies, experiences, projects };

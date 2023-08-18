@@ -6,6 +6,10 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import Appsheet from "./Appsheet.png";
+import Laravel from "./Laravel.png";
+import Blog from "./blog.jpg";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,7 +34,7 @@ import Uopeople from './company/uopeople.png';
 import inventory from "./inventory.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import instagram from './company/instagram.png';
+import instagram from './company/meta.png';
 import GC from './company/GeneralCargo.jpg';
 
 export {
@@ -64,4 +68,7 @@ export {
   Uopeople,
   instagram,
   GC,
+  Appsheet,
+  Laravel,
+  Blog
 };
